@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacuaa"
+    android:orientation="vertical"
+    tools:context=".Informacion">
+
+    <TextView
+        android:id="@+id/TextInfouego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/red"
+        android:gravity="center_horizontal"
+        android:paddingBottom="30sp"
+        android:text="Información del juego"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/red"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="El tres en linea, tambien conocido como Ceros y Cruces, tres en raya (España, Ecuador y Bolivia), Michi (en Peru), juego del gato, Triqui (en Colombia), Cuadritos, Gato (en Chile, Costa Rica y Mexico), Tateti (en Argentina y Paraguay), Totito (en Guatemala), Triqui traka, Equis Cero, Tic-Tac-Toe (en Estados Unidos), o la vieja (en Venezuela), es un juego de lapiz y papel entre dos jugadores: O y X, que marcan los espacios de un tablero de 3×3 alternadamente."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/ter" />
+</LinearLayout>

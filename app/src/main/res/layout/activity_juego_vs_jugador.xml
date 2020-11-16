@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/juego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacuaa"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_pantalla"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/j1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:fontFamily="@font/red"
+            android:gravity="center_horizontal"
+            android:text="Jugador"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/j1nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/aqua"
+            android:gravity="center"
+            android:text="Nombre"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/j1edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/aqua"
+            android:gravity="center"
+            android:paddingRight="35sp"
+            android:text="Edad"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <!--- decimos qué hay en cada casilla-->
+
+
+            <ImageView
+                android:id="@+id/a1"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/a2"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/a3"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/b1"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/b2"
+                style="@style/casilla" />
+
+            <ImageView
+                android:id="@+id/b3"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/c1"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/c2"
+                style="@style/casilla" />
+
+
+            <ImageView
+                android:id="@+id/c3"
+                style="@style/casilla" />
+
+
+        </GridLayout>
+    </LinearLayout>
+
+
+    <!--- hacemos la cuadrícula 3x3-->
+
+
+</LinearLayout>
+

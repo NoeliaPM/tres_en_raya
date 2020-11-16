@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoacuaa"
+    android:orientation="vertical"
+    tools:context=".Informacion">
+
+    <TextView
+        android:id="@+id/TextReglasJuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/red"
+        android:gravity="center_horizontal"
+        android:paddingBottom="30sp"
+        android:text="Reglas del juego"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aqua"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text= "Para jugar con un amigo pincha en el boton 'Versus Jugador' e introducid vuestros nombre y edad (Han de ser dos nombres distinto), para jugar contra la maquina pincha en 'Versus CPU' e introduce tu edad. Una vez seleccionada una opcion u otra pincha en 'Jugar' y ya podras disfrutar del juego. El juego consiste en hacer tres en raya pinchando en la casilla correspondiente."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/ter" />
+</LinearLayout>
